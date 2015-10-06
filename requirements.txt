@@ -1,1 +1,2 @@
 pyexcel==0.1.7
+pyexcel-xls

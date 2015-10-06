@@ -2,7 +2,10 @@
 Remove the dependencies of Kodak Bank's Microsoft Excel and do the same with python and GNU/Linux. Unleash the beast.
 
 #Steps to Install 
-* $sudo apt-get install build-essentials python-dev python-pip git
+* #### Ubuntu
+* $sudo apt-get install build-essentials python-dev python-pip git python-tk
+* #### Fedora
+* $sudo dnf install python-devel python-pip git python-tk
 * $sudo pip install virtualenv 
 * $cd ~
 * $virtualenv kodak_bank
@@ -11,6 +14,7 @@ Remove the dependencies of Kodak Bank's Microsoft Excel and do the same with pyt
 * $git clone https://github.com/ramaseshan/kodak_bank_excel_parser.git
 * $cd kodak_bank_excel_parser
 * $pip install -r requirements.txt
-* $python kodak_bank_excel_parser.py /path/to/your/excelfile.xls
+* $chmod +x kotak_bank_spreadsheet_parser.py
+* $./kotak_bank_spreadsheet_parser.py
 
 
