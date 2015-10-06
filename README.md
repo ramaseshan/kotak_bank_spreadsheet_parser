@@ -1,4 +1,4 @@
-# kotak_bank_spreadhsheet_parser
+# kotak_bank_spreadsheet_parser
 Remove the dependencies of Kodak Bank's Microsoft Excel and do the same with python and GNU/Linux. Unleash the beast.
 
 #Steps to Install 
@@ -11,8 +11,8 @@ Remove the dependencies of Kodak Bank's Microsoft Excel and do the same with pyt
 * $virtualenv kotak_bank
 * $cd kotak_bank
 * $soruce bin/activate
-* $git clone https://github.com/ramaseshan/kotak_bank_spreadhsheet_parser.git
-* $cd kotak_bank_spreadhsheet_parser
+* $git clone https://github.com/ramaseshan/kotak_bank_spreadsheet_parser.git
+* $cd kotak_bank_spreadsheet_parser
 * $pip install -r requirements.txt
 * $chmod +x kotak_bank_spreadsheet_parser.py
 * $./kotak_bank_spreadsheet_parser.py
