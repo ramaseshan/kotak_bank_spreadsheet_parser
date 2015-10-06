@@ -2,9 +2,9 @@
 Remove the dependencies of Kodak Bank's Microsoft Excel and do the same with python and GNU/Linux. Unleash the beast.
 
 #Steps to Install 
-* #### Ubuntu
+* #### Debian  based systems.
 * $sudo apt-get install build-essentials python-dev python-pip git python-tk
-* #### Fedora
+* #### Fedora based systems.
 * $sudo dnf install python-devel python-pip git python-tk
 * $sudo pip install virtualenv 
 * $cd ~
